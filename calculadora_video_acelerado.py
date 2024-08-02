@@ -1,0 +1,5 @@
+tempo = input('Qual a duração do video? ')
+velocidade_reproducao = input('Em qual velocidade de reprodução vc vai assistir?')
+tempo_acelerado=float(tempo)/float(velocidade_reproducao)
+txt=(f'O vídeo tem um tempo de duração de {tempo} m na velocidade de execução 1. Logo, na velocidade de execução {velocidade_reproducao}, o video poderá ser assistido em aproximadamente {tempo_acelerado:.0f}m.')
+print(txt)
